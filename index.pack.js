@@ -531,7 +531,11 @@ function Footer() {
     return _react2.default.createElement(
         "div",
         { className: "footer" },
-        _react2.default.createElement("img", { className: "footer-img", src: "./images/github.png", alt: "github icon" })
+        _react2.default.createElement(
+            "a",
+            { href: "https://github.com/MiguelDonado" },
+            _react2.default.createElement("img", { className: "footer-img", src: "./images/github.png", alt: "github icon" })
+        )
     );
 }
 
@@ -578,7 +582,7 @@ function Info() {
                 { className: "info-inner-btn-container" },
                 _react2.default.createElement(
                     "a",
-                    { className: "info-linkedin" },
+                    { href: "www.linkedin.com/in/miguel-\xE1ngel-donado-fern\xE1ndez", className: "info-linkedin" },
                     _react2.default.createElement("img", { className: "info-btn-img", src: "./images/linkedin.png", width: "40px" }),
                     "LinkedIn"
                 )
