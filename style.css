@@ -1,0 +1,103 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.root {
+    background-color: #1A1B21;
+    color: white;
+    font-family: "Inter", sans-serif;
+    border-radius: 8px;
+}
+
+.info-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.info-inner-container {
+    padding: 0 2.5em 2.5em;
+}
+
+.info-name,
+.info-job {
+    margin: 0;
+    text-align: center;
+}
+
+.info-name {
+    margin-top: 1em;
+    margin-bottom: .25em;
+    font-size: 2rem;
+}
+
+.info-job {
+    font-weight: 400;
+    color: #F3BF99;
+    margin-bottom: 1.5em;
+    font-size: 1.25rem;
+}
+
+.info-inner-btn-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: .1em;
+    align-items: center;
+}
+
+.info-linkedin {
+    padding: .5em 1em;
+    background-color: white;
+    color: #374151;
+    border-radius: 10px;
+    flex: 0 0 45%;
+    text-align: center;
+    font-size: 1.55rem;
+    color: #0077BBff;
+}
+
+.info-btn-img{
+    width: 20px;
+    margin-right: .3em;
+}
+
+.about-container,
+.interests-container {
+    padding: 0 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.section-title,
+.section-description {
+    margin: 0;
+}
+
+.section-title{
+    margin-bottom: .1em;
+    font-size: 1.75rem
+}
+
+.section-description {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: #161619;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .2em;
+}
+
+.footer-img {
+    min-width: 7%;
+}
+
